@@ -6,9 +6,9 @@ class Model():
 
     def __init__(self):
 
-        self.model = pickle.load(open(r"artifacts\\model.pkl",'rb'))
-        self.scaler = pickle.load(open(r"artifacts\\scaler.pkl",'rb'))
-        self.data = json.load(open(r"artifacts\\model_data.json",'r'))
+        self.model = pickle.load(open(r"artifacts//model.pkl",'rb'))
+        self.scaler = pickle.load(open(r"artifacts//scaler.pkl",'rb'))
+        self.data = json.load(open(r"artifacts//model_data.json",'r'))
 
 
     def result(self,SeniorCitizen,
